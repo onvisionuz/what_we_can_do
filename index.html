@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WeCanDo Vision — внедрение компьютерного зрения</title>
+    <meta
+      name="description"
+      content="47 практических направлений внедрения компьютерного зрения для производства, ритейла, логистики, безопасности, медицины и других отраслей."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Главная навигация">
+      <a class="brand" href="#top" aria-label="WeCanDo Vision">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>WeCanDo Vision</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#services">Возможности</a>
+        <a href="#process">Процесс</a>
+        <a href="#contact">Контакт</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Computer vision implementation studio</p>
+          <h1 id="hero-title">Компьютерное зрение для задач, где бизнесу нужен результат</h1>
+          <p class="hero-copy">
+            Проектируем и внедряем системы, которые видят дефекты, считают объекты,
+            контролируют безопасность, анализируют документы и помогают автоматизировать
+            ручные операции.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#services">Посмотреть 47 кейсов</a>
+            <a class="button secondary" href="#contact">Обсудить задачу</a>
+          </div>
+          <dl class="hero-stats" aria-label="Ключевые показатели">
+            <div>
+              <dt>47</dt>
+              <dd>готовых направлений</dd>
+            </div>
+            <div>
+              <dt>15+</dt>
+              <dd>отраслей</dd>
+            </div>
+            <div>
+              <dt>10/10</dt>
+              <dd>ROI для top-кейсов</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Что мы делаем">
+        <div class="section-inner intro-grid">
+          <div>
+            <p class="section-kicker">Что можно внедрить</p>
+            <h2>От прототипа до промышленной CV-системы</h2>
+          </div>
+          <p>
+            Ниже собраны услуги, которые можно адаптировать под ваши камеры, производственные
+            линии, мобильные приложения, склады, магазины, документы или видеопотоки. Каждый кейс
+            показывает понятный сценарий, ожидаемый эффект и демо-визуализацию.
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="services section-inner" aria-labelledby="services-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Каталог услуг</p>
+            <h2 id="services-title">Возможности компьютерного зрения</h2>
+          </div>
+          <p id="result-count" class="result-count" aria-live="polite"></p>
+        </div>
+
+        <form class="filters" role="search" aria-label="Фильтры кейсов">
+          <label class="search-field">
+            <span>Поиск</span>
+            <input id="search-input" type="search" placeholder="Например: склад, OCR, безопасность">
+          </label>
+          <label>
+            <span>Отрасль</span>
+            <select id="industry-filter">
+              <option value="">Все отрасли</option>
+            </select>
+          </label>
+          <label>
+            <span>Сложность</span>
+            <select id="complexity-filter">
+              <option value="">Любая сложность</option>
+            </select>
+          </label>
+          <label>
+            <span>ROI</span>
+            <select id="roi-filter">
+              <option value="">Любой ROI</option>
+              <option value="10">ROI 10</option>
+              <option value="9">ROI 9+</option>
+              <option value="8">ROI 8+</option>
+            </select>
+          </label>
+        </form>
+
+        <div id="case-grid" class="case-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="process" class="process-band" aria-labelledby="process-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Как работаем</p>
+              <h2 id="process-title">Короткий путь от идеи до внедрения</h2>
+            </div>
+          </div>
+          <ol class="process-list">
+            <li>
+              <span>01</span>
+              <h3>Выбираем задачу</h3>
+              <p>Разбираем текущий процесс, камеры, данные, требования к точности и экономический эффект.</p>
+            </li>
+            <li>
+              <span>02</span>
+              <h3>Делаем пилот</h3>
+              <p>Собираем минимальный датасет, обучаем модель и показываем демо на ваших примерах.</p>
+            </li>
+            <li>
+              <span>03</span>
+              <h3>Интегрируем</h3>
+              <p>Подключаем систему к видеопотокам, ERP/WMS/CRM, уведомлениям, дашбордам или мобильному приложению.</p>
+            </li>
+            <li>
+              <span>04</span>
+              <h3>Поддерживаем</h3>
+              <p>Мониторим качество, дообучаем модели и улучшаем сценарии по мере роста данных.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section section-inner" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <p class="section-kicker">Старт проекта</p>
+          <h2 id="contact-title">Покажите процесс, который нужно автоматизировать</h2>
+          <p>
+            Мы подберем подходящий кейс, оценим данные и предложим пилот, который можно проверить
+            на реальных кадрах до полноценного внедрения.
+          </p>
+        </div>
+        <a class="button primary" href="mailto:hello@wecando.vision?subject=Computer%20Vision%20Project">Написать нам</a>
+      </section>
+    </main>
+
+    <dialog id="case-dialog" class="case-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" type="button" aria-label="Закрыть">×</button>
+      <div class="dialog-layout">
+        <div class="dialog-demo">
+          <div id="media-slider" class="media-slider" aria-label="Медиа кейса">
+            <div id="media-track" class="media-track"></div>
+            <button id="slide-prev" class="slider-nav prev" type="button" aria-label="Предыдущий слайд">‹</button>
+            <button id="slide-next" class="slider-nav next" type="button" aria-label="Следующий слайд">›</button>
+            <div id="slider-dots" class="slider-dots" aria-label="Слайды"></div>
+          </div>
+          <div class="video-caption">
+            <span class="live-dot" aria-hidden="true"></span>
+            <span id="media-caption">Демо-видео</span>
+          </div>
+        </div>
+        <div class="dialog-content">
+          <p id="dialog-industry" class="dialog-industry"></p>
+          <h2 id="dialog-title"></h2>
+          <p id="dialog-description" class="dialog-description"></p>
+          <dl class="dialog-metrics">
+            <div>
+              <dt>Сложность</dt>
+              <dd id="dialog-complexity"></dd>
+            </div>
+            <div>
+              <dt>ROI</dt>
+              <dd id="dialog-roi"></dd>
+            </div>
+          </dl>
+          <div class="detail-block">
+            <h3>Что внедряем</h3>
+            <ul id="dialog-points"></ul>
+          </div>
+          <div class="detail-block">
+            <h3>Технологическая база</h3>
+            <p id="dialog-tech"></p>
+          </div>
+          <div class="detail-block">
+            <h3>Данные и модели</h3>
+            <p id="dialog-datasets"></p>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <script src="case-data.js"></script>
+    <script src="case-media.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

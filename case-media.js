@@ -33,7 +33,15 @@ globalThis.CASE_MEDIA = {
       "sourceUrl": "https://www.mvtec.com/company/research/datasets/mvtec-ad"
     }
   ],
-  "4": [],
+  "4": [
+    {
+      "type": "image",
+      "kind": "Inspection demo",
+      "title": "EV battery defect inspection",
+      "src": "assets/media/case-04-01-battery-detection-annotation.png",
+      "sourceUrl": "https://switchon.io/how-computer-vision-and-deep-learning-are-revolutionizing-ev-battery-inspection/"
+    }
+  ],
   "5": [
     {
       "type": "image",
@@ -133,8 +141,24 @@ globalThis.CASE_MEDIA = {
       "sourceUrl": "https://github.com/ankandrew/fast-plate-ocr"
     }
   ],
-  "16": [],
-  "17": [],
+  "16": [
+    {
+      "type": "image",
+      "kind": "Detection demo",
+      "title": "Pothole detection predictions",
+      "src": "assets/media/case-16-01-road-damage-detector.jpg",
+      "sourceUrl": "https://huggingface.co/peterhdd/pothole-detection-yolov8"
+    }
+  ],
+  "17": [
+    {
+      "type": "image",
+      "kind": "GIF demo",
+      "title": "Driver drowsiness detection",
+      "src": "assets/media/case-17-01-driver-drowsiness-detection.gif",
+      "sourceUrl": "https://makeagif.com/gif/driver-drowsiness-detection-using-opencv-and-python-km1AXq"
+    }
+  ],
   "18": [
     {
       "type": "image",
@@ -203,8 +227,24 @@ globalThis.CASE_MEDIA = {
       "sourceUrl": "https://github.com/spMohanty/PlantVillage-Dataset"
     }
   ],
-  "24": [],
-  "25": [],
+  "24": [
+    {
+      "type": "image",
+      "kind": "Dataset example",
+      "title": "DeepWeeds field examples",
+      "src": "assets/media/case-24-01-deepweeds-dataset.jpg",
+      "sourceUrl": "https://www.nature.com/articles/s41598-018-38343-3"
+    }
+  ],
+  "25": [
+    {
+      "type": "image",
+      "kind": "Dataset example",
+      "title": "MinneApple fruit counting examples",
+      "src": "assets/media/case-25-01-minneapple-fruit-detection-dataset.png",
+      "sourceUrl": "https://github.com/nicolaihaeni/MinneApple"
+    }
+  ],
   "26": [
     {
       "type": "image",
